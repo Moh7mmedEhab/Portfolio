@@ -771,13 +771,25 @@ h6 {
 
     #about-btn {
 
-        font-size: 0.65em;
-
         min-width: 15vw;
 
-        min-height: 2.5vh;
+        min-height: 2vh;
 
-        padding: 12px;
+        padding: 5px;
+
+    }
+
+    #about-btn span {
+
+        font-size: 1.2em;
+
+    }
+
+    #about-btn img {
+
+        width: 18px;
+
+        height: 18px;
 
     }
 
@@ -801,19 +813,19 @@ h6 {
 
     #name-inp input[type="text"], #email-inp input[type="email"] {
 
-        width: 45vw;
+        width: 50vw;
 
-        height: 4vh;
+        height: 3.5vh;
 
     }
 
     #message-inp textarea {
 
-        min-width: 50vw;
+        min-width: 60vw;
 
-        width: 50vw;
+        width: 60vw;
     
-        max-width: 50vw;
+        max-width: 60vw;
 
     }
 
