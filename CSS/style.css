@@ -719,6 +719,12 @@ h6 {
 
 @media screen and (max-width: 700px) {
 
+    header nav {
+
+        height: 50px;
+
+    }
+
     header #title-div {
 
         flex-direction: column;
@@ -757,15 +763,9 @@ h6 {
 
         min-width: 15vw;
 
-        height: 5vh;
+        min-height: 2.5vh;
 
-        padding: 20px;
-
-    }
-
-    #about-me {
-
-        font-size: 0.8em;
+        padding: 12px;
 
     }
 
@@ -777,7 +777,7 @@ h6 {
 
     #about-content p {
 
-        font-size: 0.65em !important;
+        font-size: 0.8em !important;
 
     }
 
@@ -791,7 +791,7 @@ h6 {
 
         width: 45vw;
 
-        height: 3vh;
+        height: 4vh;
 
     }
 
@@ -811,7 +811,7 @@ h6 {
 
         min-height: 2.5vh;
 
-        padding: 15px;
+        padding: 12px;
 
     }
     
