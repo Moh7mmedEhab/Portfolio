@@ -320,6 +320,8 @@ main {
 
     align-items: center;
 
+    flex-direction: column;
+
 }
 
 #about-info {
@@ -332,7 +334,7 @@ main {
 
     justify-content: center;
 
-    min-width: 45vw;
+    min-width: 100vw;
 
     padding: 5px;
 
@@ -793,21 +795,9 @@ h6 {
 
     }
 
-    #about-content {
-
-        flex-direction: column;
-
-    }
-
     #about-content p {
 
         font-size: 0.8em !important;
-
-    }
-
-    #about-info {
-
-        min-width: 100vw;
 
     }
 
