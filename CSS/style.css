@@ -42,6 +42,12 @@ header {
 
     height: 100vh;
 
+    padding: 0px;
+
+    margin: 0px;
+
+    box-sizing: border-box;
+
 }
 
 nav {
@@ -719,7 +725,7 @@ h6 {
 
 @media screen and (max-width: 700px) {
 
-    body {
+    header {
 
         height: 100vh;
 
