@@ -90,7 +90,7 @@ listContainer.onclick = () => {
 
         spanThree.style.transform = "rotate(0deg)";
 
-        slideContainer.style.top = "-100%";
+        slideContainer.style.top = "-100vh";
 
         listOpen = false;
 
