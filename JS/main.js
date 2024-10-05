@@ -26,7 +26,7 @@ let spanThree = document.querySelector(".three");
 
 let listOpen = false;
 
-let porjects = document.querySelectorAll(".project");
+let projects = document.querySelectorAll(".project");
 
 window.onload = () => {
 
@@ -38,11 +38,47 @@ window.onload = () => {
 
 };
 
+window.matchMedia("(orientation: portrait)").addEventListener("change", (orient => {
+
+    if (orient.matches) {
+
+        if (window.innerWidth <= 700) {
+
+            header.style.height = `${window.innerHeight - (window.innerHeight - document.documentElement.clientHeight)}px`;
+    
+            slideContainer.style.top = "-100%";
+        
+        } else {
+    
+            header.style.height = "100vh";
+    
+        };
+
+    } else {
+
+        if (window.innerWidth <= 700) {
+
+            header.style.height = `${window.innerHeight - (window.innerHeight - document.documentElement.clientHeight)}px`;
+    
+            slideContainer.style.top = "-100%";
+        
+        } else {
+    
+            header.style.height = "100vh";
+    
+        };
+
+    }
+    
+}));
+
 addEventListener('resize', () => {
 
     if (window.innerWidth <= 700) {
 
         header.style.height = `${window.innerHeight - (window.innerHeight - document.documentElement.clientHeight)}px`;
+
+        slideContainer.style.top = "-100%";
     
     } else {
 
@@ -164,7 +200,7 @@ window.onscroll = () => {
 
 };
 
-porjects.forEach(project => {
+projects.forEach(project => {
 
     project.onclick = () => {
 
@@ -173,5 +209,3 @@ porjects.forEach(project => {
     };
 
 });
-
-links.stylesheet = "display:none;"
