@@ -28,66 +28,6 @@ let listOpen = false;
 
 let projects = document.querySelectorAll(".project");
 
-window.onload = () => {
-
-    if (window.innerWidth <= 700) {
-
-        header.style.height = `${window.innerHeight - (window.innerHeight - document.documentElement.clientHeight)}px`;
-    
-    };
-
-};
-
-window.matchMedia("(orientation: portrait)").addEventListener("change", (orient => {
-
-    if (orient.matches) {
-
-        if (window.innerWidth <= 700) {
-
-            header.style.height = `${window.innerHeight - (window.innerHeight - document.documentElement.clientHeight)}px`;
-    
-            slideContainer.style.top = "-100%";
-        
-        } else {
-    
-            header.style.height = "100vh";
-    
-        };
-
-    } else {
-
-        if (window.innerWidth <= 700) {
-
-            header.style.height = `${window.innerHeight - (window.innerHeight - document.documentElement.clientHeight)}px`;
-    
-            slideContainer.style.top = "-100%";
-        
-        } else {
-    
-            header.style.height = "100vh";
-    
-        };
-
-    }
-    
-}));
-
-addEventListener('resize', () => {
-
-    if (window.innerWidth <= 700) {
-
-        header.style.height = `${window.innerHeight - (window.innerHeight - document.documentElement.clientHeight)}px`;
-
-        slideContainer.style.top = "-100%";
-    
-    } else {
-
-        header.style.height = "100vh";
-
-    };
-
-});
-
 links.forEach(link => {
 
     link.onclick = () => {
