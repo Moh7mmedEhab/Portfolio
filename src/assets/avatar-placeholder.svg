@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <rect width="400" height="400" rx="20" fill="#0b0f19"/>
+  
+  <!-- Subtle Modern Tech Grid -->
+  <line x1="100" y1="0" x2="100" y2="400" stroke="#1a2436" stroke-width="1"/>
+  <line x1="200" y1="0" x2="200" y2="400" stroke="#1a2436" stroke-width="1"/>
+  <line x1="300" y1="0" x2="300" y2="400" stroke="#1a2436" stroke-width="1"/>
+  <line x1="0" y1="100" x2="400" y2="100" stroke="#1a2436" stroke-width="1"/>
+  <line x1="0" y1="200" x2="400" y2="200" stroke="#1a2436" stroke-width="1"/>
+  <line x1="0" y1="300" x2="400" y2="300" stroke="#1a2436" stroke-width="1"/>
+
+  <!-- Sleek Modern Developer Monogram / Avatar Silhouette -->
+  <circle cx="200" cy="170" r="85" fill="#111827" stroke="#38bdf8" stroke-width="2"/>
+  
+  <!-- Modern Monogram "ME" -->
+  <text x="200" y="195" font-family="'Inter', sans-serif" font-size="70" font-weight="800" text-anchor="middle" fill="#38bdf8">ME</text>
+
+  <!-- Clean Title Case Badge -->
+  <rect x="50" y="310" width="300" height="44" rx="22" fill="#111827" stroke="#1f293d" stroke-width="1"/>
+  <text x="200" y="337" font-family="'Inter', sans-serif" font-size="13" font-weight="600" text-anchor="middle" fill="#f8fafc">Mohammed Ehab • Full-Stack Developer</text>
+</svg>
